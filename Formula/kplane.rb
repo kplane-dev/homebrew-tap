@@ -1,25 +1,25 @@
 class Kplane < Formula
   desc "Local virtual control planes for Kubernetes"
   homepage "https://github.com/kplane-dev/kplane"
-  version "0.0.15"
+  version "0.0.16"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kplane-dev/kplane/releases/download/v0.0.15/kplane-v0.0.15-darwin-arm64"
-      sha256 "5d2e670181c32ef8554d931e2736ac26c41e5bc04bf57b34d1be7763db44664e"
+      url "https://github.com/kplane-dev/kplane/releases/download/v0.0.16/kplane-v0.0.16-darwin-arm64"
+      sha256 "ba560637a134f378d37d038ec42a76cd4095a920e3f346b5c453de034a2bbfbd"
     else
-      url "https://github.com/kplane-dev/kplane/releases/download/v0.0.15/kplane-v0.0.15-darwin-amd64"
-      sha256 "e9bb6fa8b699a6ec2e4552c5fde41e6cd08262456bb14997e16ce6b636281fbe"
+      url "https://github.com/kplane-dev/kplane/releases/download/v0.0.16/kplane-v0.0.16-darwin-amd64"
+      sha256 "9f623a3075f063f000b0b37be9fdb02f28a07f6a469702f7e71d488ca2886f16"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/kplane-dev/kplane/releases/download/v0.0.15/kplane-v0.0.15-linux-arm64"
-      sha256 "9b08c2bed3bb0fa2424080d59205c5d86766b0fc7cdb0a868040e145ded8ddbb"
+      url "https://github.com/kplane-dev/kplane/releases/download/v0.0.16/kplane-v0.0.16-linux-arm64"
+      sha256 "715b1bd42b84c539d6405dc50d975e5a47e391433f2c92634c99696963a570b3"
     else
-      url "https://github.com/kplane-dev/kplane/releases/download/v0.0.15/kplane-v0.0.15-linux-amd64"
-      sha256 "64717f4c33c5b5744a885f2990d8e88eef5d16d44eaab68ae8b27b3751f1c66f"
+      url "https://github.com/kplane-dev/kplane/releases/download/v0.0.16/kplane-v0.0.16-linux-amd64"
+      sha256 "d21fd0fe62197fce0292154cb4cc81110bede1a81b26c5534ff40ca8d845861a"
     end
   end
 
